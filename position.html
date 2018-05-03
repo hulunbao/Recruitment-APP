@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
@@ -13,7 +12,7 @@
 		<link rel="stylesheet" href="position.css" />
 	</head>
 
-	<body>  
+	<body>
 		<div >
 			<header class="mui-bar mui-bar-nav">
 				<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" v-tap="{method:backindexInfo}"></a>
@@ -23,7 +22,7 @@
 				<div class="job">
 					<p class="jobname">{{jobname}}<i class="iconfont icon-ji" style="position:absolute; right:28px"></i></p>
 					<p class="salary">{{salary}}</p>
-					
+
 					<hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;" />
 					<dl class="jobinfo">
 						<dt>
@@ -51,7 +50,7 @@
 								</p>
 							</dt>
 							<dt>
-								
+
 						    </dl>
 						    <i class="iconfont icon-jinru" v-tap="{method:showcompanyInfo}" style="position:absolute; right:5px"></i>
 						</div>
@@ -67,20 +66,20 @@
 								<dt>{{welfare|welfareFilter7}}</dt>
 								<dt>{{welfare|welfareFilter8}}</dt>
 							</dl>
-							
+
 						</div>
 					</div>
-					
+
 				<div class="description">
 					<p class="jobdescription">职位描述</p>
 					<hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;" />
 					<p class="jobintroduction">岗位介绍</p>
 						<div id="jobintroduce">
-							
+
 						</div>
 					<p class="jobrequirements">任职要求</p>
 						<div id="require" >
-					
+
 						</div>
 				</div>
 				<input type="button" value="投递简历" v-tap="{method:sendMyResume}"/>
@@ -93,9 +92,9 @@
 		<script type="text/javascript" src="../js/jquery-3.3.1.min.js" ></script>
 		<script type="text/javascript" src="../js/regexp.js" ></script>
 		<script type="text/javascript" src="../js/resource.js" ></script>
-		
+
 		<script type="text/javascript" src="position.js" ></script>
-		
+
 	</body>
 
 </html>
