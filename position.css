@@ -1,6 +1,7 @@
 html{
 	height: 100%;
 }
+
 body{
 	height: inherit;
 	background-color: #E0E0E0;
@@ -18,7 +19,7 @@ body{
     right: 0;
     margin-top: 15px;
     position:relative;
-  
+
 }
 .job .jobname{
 	color: #000000;
@@ -40,7 +41,7 @@ body{
 }
 
 .job .jobinfo{
-	height: 10px;	
+	height: 10px;
 	color: #8F8F94;
 	position: relative;
 	margin-top: 8px;
@@ -104,7 +105,7 @@ body{
 
 .mui-content .information dt{
 	text-align: center;
-	
+
 	font-size: 13px;
 	color: #6D6D72;
 	background-color: #E0E0E0;
