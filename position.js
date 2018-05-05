@@ -5,7 +5,7 @@ mui.plusReady(function(){
 		data: {
 			jobname: "",
 			salary: "",
-			location: "", 
+			location: "",
 			experience : "一年以上",
 			time: "",
 			companyname: "",
@@ -212,7 +212,6 @@ mui.plusReady(function(){
 });
 
 mui.ready(function() {
-
 
 });
 
