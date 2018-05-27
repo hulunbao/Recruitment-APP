@@ -4,7 +4,6 @@ import org.apache.ibatis.annotations.Mapper
 import java.util.List
 import java.util.Map
 
-
 @Mapper
 interface I_RecruitDao {
 	/**
